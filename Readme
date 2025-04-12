@@ -1,0 +1,70 @@
+## Project 2 – School Games Management System
+
+### Overview
+
+This project is a C language application designed to manage various sports-related entities, such as athletes, teams, sports, tournaments, and games. It provides full support for CRUD operations (Create, Read, Update, Delete) for each entity.
+
+### Funcionalidades
+
+- **Gerenciamento de Atletas**: Adicionar, remover, atualizar e visualizar registros de atletas.  
+- **Gerenciamento de Equipes**: Adicionar, remover, atualizar e visualizar registros de equipes.  
+- **Gerenciamento de Modalidades**: Adicionar, remover, atualizar e visualizar registros de modalidades esportivas.  
+- **Gerenciamento de Torneios**: Adicionar, remover, atualizar e visualizar registros de torneios, incluindo a visualização de jogos dentro de um torneio.  
+- **Gerenciamento de Jogos**: Adicionar, remover, atualizar e visualizar registros de jogos.
+
+### Requirements
+
+- CMake version 3.22 or higher  
+- GCC or any compatible C compiler  
+- Any C code editor or IDE
+
+### Building the Project
+
+1. **Unzip the project, open a terminal, and navigate to the root directory.**
+
+2. **Run the following commands to configure and compile the application:**
+
+    ```sh
+    rm -rf CMakeCache.txt CMakeFiles
+    cmake .
+    make
+    ```
+
+### Running the Application
+
+Once compiled, you can run the application from the build directory using:
+
+```sh
+./MeuProjeto
+```
+
+### Usage
+
+When the application starts, a menu will be displayed with the following options:
+
+1. **Sistema de Cadastro de Atletas**  
+2. **Sistema de Cadastro de Modalidades**  
+3. **Sistema de Cadastro de Equipes**  
+4. **Sistema de Cadastro de Torneios**  
+5. **Sistema de Cadastro de Jogos**  
+6. **Sair do Sistema**
+
+Each module allows the following actions:
+
+- **Cadastrar**: Add a new record  
+- **Excluir**: Remove an existing record  
+- **Atualizar**: Update a record  
+- **Exibir registro**: View a specific record  
+- **Exibir todos os registros**: View all records
+
+For the **Sistema de Cadastro de Torneios**, there is one additional option:
+
+- **Exibir jogos de um torneio**: View all games within a specific tournament
+
+### Cleaning Build Files
+
+To remove generated build files, use the command:
+
+```sh
+make clean
+```

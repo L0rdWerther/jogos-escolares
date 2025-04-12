@@ -1,0 +1,4 @@
+Cannot generate into /home/lord_werther/CLionProjects/Luciana_Maria
+It is already used for project /home/lord_werther/CLionProjects/projeto_2
+
+Please either delete it manually or select another generation directory

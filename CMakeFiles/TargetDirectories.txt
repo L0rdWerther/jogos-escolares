@@ -1,0 +1,3 @@
+/home/lord_werther/CLionProjects/Luciana_Maria/CMakeFiles/MeuProjeto.dir
+/home/lord_werther/CLionProjects/Luciana_Maria/CMakeFiles/edit_cache.dir
+/home/lord_werther/CLionProjects/Luciana_Maria/CMakeFiles/rebuild_cache.dir

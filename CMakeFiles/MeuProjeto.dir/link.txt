@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/MeuProjeto.dir/main.c.o CMakeFiles/MeuProjeto.dir/atleta.c.o CMakeFiles/MeuProjeto.dir/equipe.c.o CMakeFiles/MeuProjeto.dir/modalidade.c.o CMakeFiles/MeuProjeto.dir/torneio.c.o CMakeFiles/MeuProjeto.dir/jogos.c.o -o MeuProjeto 
